@@ -1,0 +1,9 @@
+<!-- https://babeljs.io/setup/#installation ye cmd h babel ki  -->
+<!-- Abhi code chota hai to ye isme dhundne m koi problem nhi hogi lekin jse code bda hoga to problem hogi uske liye hm use krna hoga Source map  --> 
+<!-- "build": "babel ./script.js -d lib --source-maps" ye dalege  -->
+<!-- ye html hi hmare code ko request krta h ye hmare lib/script ko hi send krta h  -->
+
+<!-- Important notes  -->
+<!-- Hmar code m jo source script file hoti h wo kbhi bhi browser m run nhi hotib ss hm usme code 
+likhte jarur h but npm run build command se ye code apna lib/script file ko transfer kr deta h by using babel
+or yhi code hmesha hamra browser run krta h or ye same hi code hota jo hmara source script file m hota h  -->
