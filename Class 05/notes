@@ -1,0 +1,29 @@
+//  Parcel is  bundler they are storing a multiple files and creating a bundler 
+// browser hmare node module ko smjhta nhi h kyuki isme se hme react ko import krna hota h 
+// node module browser ke liye nhi h ye server ke liye h 
+// Browser hmar node module ko smjhta nhi h or react h hmari client side liabrary 
+// or react ko clnvana h hme apne browser m to uske liye use hota h parcel react ka code kse
+// acees kr payge
+
+// Parcel use krne ke liye command 
+// npx parcel main file (indexedDB.html) entry point ~
+// npm install react command 
+// hot module replacement hmari hoti hjb bina refresh hue bina hi code m chnage ho jaye
+// bs sye code chaiye if(module.hot){
+//     module.hot.accept();
+// }
+//Parcel ek hmara dist folder create krta h usme hmari html file crete hoti h 
+// or usme hi hmari ek script file generate hoti h or ek file map wali or html
+// wali file or script wali file aps m connect rheti h haina
+
+// parcel ne hmari sbhi file ka ek bundler bna dia h or uska name dist rkha dia h
+
+// or jo hmari file index.html h or script.js h globally wali hme code to unme hi
+// likhna hota h but run hoti h hmari dist folder wali haina or hmare code ko transfer krta 
+// babel isme internally 
+
+// react hm apni node module se install krvate h 
+
+// Parcel hmara import React form react krte haina to parcel jnta h ki node module m se 
+react ka code utahna h or or bhi file ko utha kr ek bundle creat kr deta h or ek server crete 
+krke show kr deta h 
